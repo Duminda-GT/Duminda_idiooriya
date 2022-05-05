@@ -1,0 +1,26 @@
+ {"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hi","hey","whats up"],
+  "responses":["hello","hi","hey","What can i do for you"]
+  },
+  {"tag": "creator",
+  "patterns": ["who create this chatbot","auther of the chatbot","who are you","who create this assistant"],
+  "responses":["I am your assistant for this Web site.Developed by Duminda"]
+  },
+  {"tag": "contacts_mobile",
+  "patterns": ["can you give me your mobile","mobile number","can i contact you from mobile "],
+  "responses":["Sure It is +94775099615"]
+  },
+  {"tag": "contacts_mail",
+  "patterns": ["can you give me your mail address","email","mail address "],
+  "responses":["Sure It is greytechcn@gmail.com"]
+  },
+  {"tag": "contacts_linkedin",
+  "patterns": ["are you in linkedin","linkedin"],
+  "responses":["Iam on linkedIn as duminda idisooriya Here is the link-"]
+  },
+  {"tag": "services",
+  "patterns": ["what are the services you offered","can i know about your services","what do you provide","services"],
+  "responses":["We are specilized in Machine learning and data visualization"]
+  }
+]}

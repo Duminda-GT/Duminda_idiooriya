@@ -1,19 +1,24 @@
  {"intents": [
   {"tag": "greetings",
-  "patterns": ["hello","hi","hey","whats up"],
-  "responses":["hello","hi","hey","What can i do for you"]
+  "patterns": ["hello","hi","hey","whats up","good morning"],
+  "responses":["hello..What can i do for you","hi","hey","What can i do for you"]
+  },
+  {"tag": "how_are_you",
+    "patterns": ["how areyou","How is your day","Whats going on"],
+    "responses":["Great What can i do for you"]
   },
   {"tag": "creator",
   "patterns": ["who create this chatbot","auther of the chatbot","who are you","who create this assistant"],
-  "responses":["I am your assistant for this Web site.Developed by Duminda"]
+  "responses":["I am your assistant for this Web site Developed by Duminda GreyTech"]
   },
-  {"tag": "contacts_mobile",
-  "patterns": ["can you give me your mobile","mobile number","can i contact you from mobile "],
-  "responses":["Sure It is +94775099615"]
+    
+  {"tag": "hire",
+  "patterns": ["can i hire you","can you do a project"],
+  "responses":["Yeah sure contact me on duminda1827@gmail.com"]
   },
   {"tag": "contacts_mail",
   "patterns": ["can you give me your mail address","email","mail address "],
-  "responses":["Sure It is greytechcn@gmail.com"]
+  "responses":["Sure It is greytechcn@gmail.com","Yeah sure contact me on duminda1827@gmail.com"]
   },
   {"tag": "contacts_linkedin",
   "patterns": ["are you in linkedin","linkedin"],
@@ -22,5 +27,9 @@
   {"tag": "services",
   "patterns": ["what are the services you offered","can i know about your services","what do you provide","services"],
   "responses":["We are specilized in Machine learning and data visualization"]
+  },
+  {"tag": "bye",
+    "patterns": ["Ok Thank you","i'll contact you later","bye"],
+    "responses":["thank you for connecting Have a nice day"]
   }
 ]}

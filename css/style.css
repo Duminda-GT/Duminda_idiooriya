@@ -202,7 +202,14 @@ img {
   padding: 10px 10px 10px 20px;
 }
 #team h4 {
-	padding-bottom: 40px;
+	padding-bottom: 20px;
+  color:#000;
+  font-weight:bold;
+}
+#team li {
+  color:#000;
+  font-weight:bold;
+  font-family: 'lane_-_narrowregular', sans-serif;
 }
 #team .col-md-12 {
   text-align: center;
@@ -219,11 +226,29 @@ img {
   text-align: center;
   padding-top: 80px;
   padding-bottom: 60px;
+  height: 60vh;
   }
+
 #portfolio h2 {
   border-right: 2px solid #f2af00;
   display: inline-block;
   padding: 10px 20px 10px 10px;
+}
+.iso_details_buttn{
+  color: #000;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.6);
+  border: 2px solid #444;
+  border-radius: 4px;
+  padding: 5px;
+  letter-spacing :1px;
+
+}
+.iso_details_buttn:hover{
+  background-color: #f2af00;
+  color: #ffffff;
+  border: 0px ;
+
 }
 /* FILTER CSS */
 .filter-wrapper {
@@ -280,66 +305,19 @@ img {
     height: 100%;
     overflow: hidden;
 }
-.iso-box > a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
+
 .fluid-img {
   width: 100%;
   display: block;
 }
-
-/* pricing section */
-#pricing {
-  padding-top: 60px;
-  padding-bottom: 80px;
-  text-align: center;
-}
-#pricing h2 {
+.carousal_heading h2{
   border-left: 2px solid #f2af00;
   display: inline-block;
-  padding: 10px 10px 10px 20px;
+  padding: 10px 80px 10px 20px;
+  margin-top:80px;
+  margin-bottom: 50px;
 }
-#pricing .plan {
-  border: 2px solid #444;
-  padding: 20px 20px 40px 20px;
-  margin-top: 60px;
-}
-#pricing .plan .plan-title {
-  border-bottom: 2px solid #444;
-  padding: 20px 10px 20px 10px;
-  margin-bottom: 20px;
-}
-#pricing .plan small,
-#pricing .plan ul li {
-  font-family: 'Raleway', sans-serif;
-}
-#pricing .plan ul {
-  padding: 0;
-}
-#pricing .plan ul li {
-  display: block;
-  padding: 16px 0px 16px 0px;
-}
-#pricing .plan .btn {
-  background: transparent;
-  border: 2px solid #444;
-  border-radius: 0px;
-  color: #000;
-  font-weight: bold;
-  width: 140px;
-  height: 50px;
-  transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -ms-transition: all 0.4s ease-in-out;
-}
-#pricing .plan .btn:hover {
-  background: #f2af00;
-  border-color: transparent;
-}
+
 
 /* contact section */
 #contact {
@@ -392,6 +370,10 @@ img {
 }
 .form-control::-webkit-input-placeholder {
   color: #202020;
+}
+.tech_1, .tech_heading{
+  color: #000;
+  font-weight: bold;
 }
 
 /* footer section */
